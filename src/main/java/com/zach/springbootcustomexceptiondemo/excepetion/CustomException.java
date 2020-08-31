@@ -4,7 +4,7 @@ import com.zach.springbootcustomexceptiondemo.entity.ResultStatusEnum;
 import lombok.Getter;
 
 @Getter
-public class CustomException {
+public class CustomException extends RuntimeException{
     private int code;
     private String message;
 
